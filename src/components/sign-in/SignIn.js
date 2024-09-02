@@ -5,7 +5,6 @@ import Button from '@mui/material/Button';
 import Checkbox from '@mui/material/Checkbox';
 import CssBaseline from '@mui/material/CssBaseline';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import Divider from '@mui/material/Divider';
 import FormLabel from '@mui/material/FormLabel';
 import FormControl from '@mui/material/FormControl';
 import Link from '@mui/material/Link';
@@ -16,7 +15,7 @@ import MuiCard from '@mui/material/Card';
 import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
 import ForgotPassword from './ForgotPassword';
 import getSignInTheme from './theme/getSignInTheme';
-import CustomIcons, { SosIcon2 } from './CustomIcons';
+import  { SosIcon2 } from './CustomIcons';
 import TemplateFrame from './TemplateFrame';
 
 const Card = styled(MuiCard)(({ theme }) => ({
